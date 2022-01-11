@@ -9,3 +9,14 @@ def printSubArrays(arr,start,end):
 
 arr=[1,2,3]
 printSubArrays(arr,0,0)
+
+
+
+
+
+
+#without Recursion
+arr=[1,2,3,4]
+for i in range(0,len(arr)):
+    for j in range(i,len(arr)):
+        print(arr[i:j+1])
